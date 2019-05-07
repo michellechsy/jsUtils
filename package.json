@@ -1,0 +1,30 @@
+{
+  "name": "jsutils",
+  "version": "1.0.0",
+  "description": "Utils for JS/Node.js project",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michellechsy/jsUtils.git"
+  },
+  "author": "Michelle Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michellechsy/jsUtils/issues"
+  },
+  "homepage": "https://github.com/michellechsy/jsUtils#readme",
+  "jest": {
+    "testMatch": [
+      "**/test/**/*.js?(x)"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
